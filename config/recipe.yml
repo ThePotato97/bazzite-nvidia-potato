@@ -19,7 +19,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://packages.microsoft.com/fedora/%OS_VERSION%/insiders-slow-prod/
+      - https://packages.microsoft.com/fedora/%OS_VERSION%/insiders-slow-prod/config.repo
     install:
        - micro
        - starship
